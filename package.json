@@ -1,5 +1,5 @@
 {
-  "name": "@razor-dex/token-lists",
+  "name": "@razorlabs/token-lists",
   "version": "1.0.0",
   "description": "📚 The Token Lists specification",
   "license": "MIT",
@@ -17,7 +17,6 @@
     "lint": "tsdx lint src test",
     "prepublishOnly": "yarn test && yarn build"
   },
-  "peerDependencies": {},
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
@@ -29,5 +28,14 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "module": "dist/token-lists.esm.js"
+  "module": "dist/token-lists.esm.js",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "ajv": "^8.13.0",
+    "ajv-formats": "^3.0.1",
+    "husky": "^9.0.11",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  }
 }
