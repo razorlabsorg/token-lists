@@ -91,8 +91,8 @@
         {
           "x-bridged-addresses-by-chain": {
             "1": {
-              "bridgeAddress": "0x4200000000000000000000000000000000000010",
-              "tokenAddress": "0x4200000000000000000000000000000000000010"
+              "bridgeAddress": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::lzusdc::lzUSDC",
+              "tokenAddress": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::lzusdc::lzUSDC"
             }
           }
         }
@@ -103,7 +103,7 @@
         {
           "type": "string",
           "minLength": 1,
-          "maxLength": 64,
+          "maxLength": 264,
           "examples": [
             "#00000"
           ]
@@ -204,7 +204,7 @@
       "properties": {
         "chainId": {
           "type": "integer",
-          "description": "The chain ID of the Ethereum network where this token is deployed",
+          "description": "The chain ID of the network where this token is deployed",
           "minimum": 1,
           "examples": [
             1,
@@ -213,10 +213,10 @@
         },
         "address": {
           "type": "string",
-          "description": "The checksummed address of the token on the specified chain ID",
-          "pattern": "^0x[a-fA-F0-9]{64}$",
+          "description": "The address of the token on the specified chain ID",
+          "pattern": "^0x[a-fA-F0-9]{64}::[a-z]+::[A-Z]+$",
           "examples": [
-            "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::cusdc::CUSDC"
           ]
         },
         "decimals": {
@@ -337,11 +337,11 @@
       },
       "examples": [
         {
-          "4_0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984":  {
-            "name": "Uniswap",
-            "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
-            "symbol": "UNI",
-            "decimals": 18,
+          "4_0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::razor::RAZOR":  {
+            "name": "Razor",
+            "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::razor::RAZOR",
+            "symbol": "RZR",
+            "decimals": 8,
             "chainId": 4,
             "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
           }

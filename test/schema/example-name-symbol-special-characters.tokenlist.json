@@ -1,0 +1,67 @@
+{
+  "name": "My Token List",
+  "timestamp": "2020-06-12T00:00:00+00:00",
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::usd::USD",
+      "symbol": "USD++",
+      "name": "PieDAO USD++ Pool",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::uni::UNIUSDC",
+      "symbol": "UNI-USDC/ETH+50/50%",
+      "name": "Uniswap V2-USDC/ETH+50/50%",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::dia::DIA",
+      "symbol": "DIACRITIC",
+      "name": "Ázertíyuöp",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::dmg::DMG",
+      "symbol": "DMG",
+      "name": "DMM: Governance",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::trdl::TRDL",
+      "symbol": "$TRDL",
+      "name": "Strudel Finance",
+      "decimals": 18
+    },
+    {
+      "chainId": 1,
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::cusdc::CUSDC",
+      "decimals": 18,
+      "name": "[brackets]&(parenthesis)",
+      "symbol": "symbol"
+    },
+    {
+      "chainId": 1,
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::ama::AMA",
+      "decimals": 18,
+      "name": "Amatsukami",
+      "symbol": "天津神"
+    },
+    {
+      "chainId": 137,
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::times::TIMES",
+      "decimals": 6,
+      "name": "Timeless ERC4626-Wrapped",
+      "symbol": "∞-waUSDC-xPYT"
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

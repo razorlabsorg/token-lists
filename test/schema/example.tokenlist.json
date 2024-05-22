@@ -1,0 +1,73 @@
+{
+  "name": "My Token List",
+  "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+  "keywords": [
+    "audited",
+    "verified",
+    "special tokens"
+  ],
+  "tags": {
+    "stablecoin": {
+      "name": "Stablecoin",
+      "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+    },
+    "compound": {
+      "name": "Compound Finance",
+      "description": "Tokens that earn interest on compound.finance"
+    }
+  },
+  "timestamp": "2020-06-12T00:00:00+00:00",
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::we::WE",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "logoURI": "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM",
+      "tags": [
+        "stablecoin"
+      ]
+    },
+    {
+      "chainId": 1,
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::us::US",
+      "symbol": "cUSDC",
+      "name": "Compound USD Coin",
+      "decimals": 8,
+      "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+      "tags": [
+        "compound"
+      ]
+    }
+  ],
+  "tokenMap": {
+    "1_0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::usdc::USDC": {
+      "chainId": 1,
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::usdc::USDC",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "decimals": 6,
+      "logoURI": "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM",
+      "tags": [
+        "stablecoin"
+      ]
+    },
+    "1_0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::cusdc::CUSDC":  {
+      "chainId": 1,
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::cusdc::CUSDC",
+      "symbol": "cUSDC",
+      "name": "Compound USD Coin",
+      "decimals": 8,
+      "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+      "tags": [
+        "compound"
+      ]
+    }
+  }, 
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

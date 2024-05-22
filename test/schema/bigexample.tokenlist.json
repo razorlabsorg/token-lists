@@ -1,0 +1,177 @@
+{
+  "name": "Example List",
+  "timestamp": "2020-06-15T12:00:00+00:00",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "uniswap",
+    "default",
+    "list"
+  ],
+  "tokens": [
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::weth::WETH",
+      "chainId": 1,
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::xbtc::XBTC",
+      "chainId": 1,
+      "name": "0xBitcoin Token",
+      "symbol": "0xBTC",
+      "decimals": 8
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::adai::ADAI",
+      "chainId": 1,
+      "name": "Aave Interest bearing DAI",
+      "symbol": "aDAI",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::amn::AMN",
+      "chainId": 1,
+      "name": "Amon",
+      "symbol": "AMN",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::ampl::AMPL",
+      "chainId": 1,
+      "name": "Ampleforth",
+      "symbol": "AMPL",
+      "decimals": 9
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::anj::ANJ",
+      "chainId": 1,
+      "name": "Aragon Network Juror",
+      "symbol": "ANJ",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::ant::ANT",
+      "chainId": 1,
+      "name": "Aragon Network Token",
+      "symbol": "ANT",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::ast::AST",
+      "chainId": 1,
+      "name": "AirSwap Token",
+      "symbol": "AST",
+      "decimals": 4
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::band::BAND",
+      "chainId": 1,
+      "name": "BandToken",
+      "symbol": "BAND",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::bat::BAT",
+      "chainId": 1,
+      "name": "Basic Attention Token",
+      "symbol": "BAT",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::blt::BLT",
+      "chainId": 1,
+      "name": "Bloom Token",
+      "symbol": "BLT",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::bnt::BNT",
+      "chainId": 1,
+      "name": "Bancor Network Token",
+      "symbol": "BNT",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::btcp::BTCP",
+      "chainId": 1,
+      "name": "PieDAO BTC++",
+      "symbol": "BTC++",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::celr::CELR",
+      "chainId": 1,
+      "name": "CelerToken",
+      "symbol": "CELR",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::csai::CSAI",
+      "chainId": 1,
+      "name": "Compound Dai",
+      "symbol": "cSAI",
+      "decimals": 8
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::cdai::CDAI",
+      "chainId": 1,
+      "name": "Compound Dai",
+      "symbol": "cDAI",
+      "decimals": 8
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::cusdc::CUSDC",
+      "chainId": 1,
+      "name": "Compound USD Coin",
+      "symbol": "cUSDC",
+      "decimals": 8
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::dai::DAI",
+      "chainId": 4,
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::mkr::MKR",
+      "chainId": 4,
+      "name": "Maker",
+      "symbol": "MKR",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::weth::WETH",
+      "chainId": 5,
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::weth::WETH",
+      "chainId": 42,
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::dai::DAI",
+      "chainId": 42,
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18
+    },
+    {
+      "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::mkr::MKR",
+      "chainId": 42,
+      "name": "Maker",
+      "symbol": "MKR",
+      "decimals": 18
+    }
+  ]
+}
