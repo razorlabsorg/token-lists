@@ -1,6 +1,6 @@
 {
   "name": "@razorlabs/token-lists",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "📚 The Token Lists specification",
   "license": "MIT",
   "main": "dist/index.js",
