@@ -1,0 +1,10 @@
+{
+  "https://tokens.razordex.xyz/razordex-default.json": {
+    "name": "RazorDEX Default",
+    "homepage": "https://razordex.xyz"
+  },
+  "https://tokens.razordex.xyz/razordex-extended.json": {
+    "name": "RazorDEX Extended",
+    "homepage": "https://razordex.xyz" 
+  }
+}
