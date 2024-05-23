@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Razor DEX Token Lists</title>
+</head>
+
+<body>
+
+  <script type="module">
+    const LISTS = {
+      "razordex-m1": {
+        "name": "RazorDEX M1",
+        "keywords": [
+          "razor",
+          "movement",
+          "m1"
+        ],
+        "logoURI": "https://razordex.xyz/logo.png",
+        "sort": true,
+        "schema": "m1",
+        "test": {
+          "skipLogo": true,
+          "m1": true
+        }
+      },
+      "razordex-m2": {
+        "name": "RazorDEX M2",
+        "keywords": [
+          "razor",
+          "movement",
+          "m2"
+        ],
+        "logoURI": "https://razordex.xyz/logo.png",
+        "sort": true,
+        "schema": "m2",
+        "test": {
+          "skipLogo": true,
+          "m2": true
+        }
+      }
+    };
+
+    const lis = Object.keys(LISTS).map((list) => {
+      return `
+        <li>
+          <a href="/${list}.json">${list}</a>
+        </li>
+        <br />
+      `
+    });
+    const ul = document.createElement('ul');
+    ul.innerHTML = lis.join('');
+    document.body.appendChild(ul);
+  </script>
+</body>
+
+</html>
