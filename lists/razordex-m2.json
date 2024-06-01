@@ -28,7 +28,7 @@
       "chainId": 102,
       "decimals": 9,
       "address": "0x1::aptos_coin::AptosCoin",
-      "logoURI": "https://tokens.razordex.xyz/images/MOVE.jpeg"
+      "logoURI": "https://tokens.razordex.xyz/images/MOVE.png"
     },
     {
       "name": "Tether USD",
@@ -36,7 +36,7 @@
       "chainId": 102,
       "decimals": 6,
       "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::usdt::USDT",
-      "logoURI": "https://tokens.razordex.xyz/images/USDT.webp"
+      "logoURI": "https://tokens.razordex.xyz/images/USDT.png"
     },
     {
       "name": "USDC Coin",
@@ -44,7 +44,7 @@
       "chainId": 102,
       "decimals": 6,
       "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::usdc::USDC",
-      "logoURI": "https://tokens.razordex.xyz/images/USDC.webp"
+      "logoURI": "https://tokens.razordex.xyz/images/USDC.png"
     },
     {
       "name": "Bitcoin",
@@ -52,7 +52,7 @@
       "chainId": 102,
       "decimals": 9,
       "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::btc::BTC",
-      "logoURI": "https://tokens.razordex.xyz/images/BTC.webp"
+      "logoURI": "https://tokens.razordex.xyz/images/BTC.png"
     },
     {
       "name": "Binance Coin",
@@ -60,7 +60,7 @@
       "chainId": 102,
       "decimals": 9,
       "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::bnb::BNB",
-      "logoURI": "https://tokens.razordex.xyz/images/BNB.svg"
+      "logoURI": "https://tokens.razordex.xyz/images/BNB.png"
     },
     {
       "name": "Ether",
@@ -76,7 +76,7 @@
       "chainId": 102,
       "decimals": 9,
       "address": "0x1a36627f8b07303314d52c1f3b4e49741e96a4988631dad62f8a2a81b0452d43::sol::SOL",
-      "logoURI": "https://tokens.razordex.xyz/images/SOL.svg"
+      "logoURI": "https://tokens.razordex.xyz/images/SOL.png"
     }
   ]
 }
