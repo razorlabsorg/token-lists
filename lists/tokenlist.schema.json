@@ -182,8 +182,8 @@
         "address": {
           "type": "string",
           "description": "The checksummed address of the token on the specified chain ID",
-          "pattern": "^0x[a-fA-F0-9]{40}$",
-          "examples": ["0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"]
+          "pattern": "^0x[a-fA-F0-9]{64}$",
+          "examples": ["0xe94822e5534e9c30d4be9c686c1ad2b4c2799b8cc4ae585d6a34ee2561034d87"]
         },
         "decimals": {
           "type": "integer",
